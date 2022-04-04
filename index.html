@@ -4,33 +4,37 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>ItzXana</title>
 </head>
 <body>
     <!--Navigation Bar-->
     <header>
-        <nav id="navbar">
-            <ul>
-                <li><a class="nav-links" href="index.html">Home</a></li>
-                <li><a class="nav-links" href="#">About Me</a></li>
-                <li><a class="nav-links" href="#">Services</a></li>
+        <nav>
+            <ul class="nav-list">
+                <li><a class="nav-links" id="home-nav" href="index.html">Home</a></li>
+                <li><a class="nav-links" id="about-nav" href="#">About Me</a></li>
+                <li><a class="nav-links" id="services-nav" href="#">Services</a></li>
             </ul>
         </nav>
     </header>
     <!--Hero-->
     <section id="hero">
-        <img src="" id="logo">
+        <img src="yM91fxKiRPWrblHb3L6J_HEb45r3TiUZUN22x.png" id="logo">
         <h1 id="hero-heading">ItzXana</h1>
         <p id="hero-subtext">Links to all my socials:</p>
-        <img src="" class="social-logos" id="twitter-logo">
-        <p>@HeyItzXana</p>
-        <img src="" class="social-logos" id="twitch-logo">
-        <p>ItzXanaLive</p>
-        <img src="" class="social-logos" id="youtube-logo">
-        <p>ItzXana</p>
+
+            <ul>
+            <li class="socials"><a href="https://twitter.com/HeyItzXana" target="_blank" class="social-links">@HeyItzXana</a></li>
+            <li class="socials"><a href="#" class="social-links">ItzXanaLive</a></li>
+            <li class="socials"><a href="#" class="social-links">ItzXana</a></li>
+            </ul>
     </section>
+    <br>
+    <br>
+    <br>
     <footer>
-        <p>Copyright &copy; 2022 ItzXana &bullet; All Rights Reserved</p>
+        <p id="copyright">Copyright &copy; 2022 ItzXana &bullet; All Rights Reserved</p>
     </footer>
 </body>
 </html>

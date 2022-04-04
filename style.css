@@ -1,0 +1,105 @@
+body {
+    margin: 0;
+    background: linear-gradient(#750080, #CA6100);
+    background-repeat: no-repeat;
+    color: white;
+}
+
+img {
+    position: relative;
+    width: 174px;
+    height: 177px;
+    left: 94px;
+    top: 82px;
+}
+
+
+/* Navigation Style */
+header nav {
+    position: relative;
+    width: 400px;
+    height: 46px;
+    left: 0px;
+    top: 0px;
+background: linear-gradient(163.2deg, #CE03C6 48.67%, #9300C7 131.42%);
+}
+
+.nav-list {
+    display: flex;
+    gap: 1rem;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.nav-list li {
+    margin-top: 15px;
+    margin-right: 15px;
+    text-align: center;
+    flex-grow: 1;
+}
+
+.nav-links {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.nav-links:hover {
+    color: purple;
+}
+
+
+/*Hero Style*/
+
+#hero-heading {
+    position: relative;
+    width: 311px;
+    height: 76px;
+    left: 99px;
+    top: 77px;
+
+    font-size: 48px;
+}
+
+#hero-subtext {
+    position: relative;
+    width: 247px;
+    height: 33px;
+    left: 105px;
+    top: 33px;
+
+    font-size: 17px;
+}
+
+.socials {
+    list-style: none;
+    position: relative;
+    width: 237px;
+    height: 38px;
+    left: 72px;
+    top: 30px;
+}
+
+.social-links {
+    color: white;
+    text-decoration: none;
+}
+.social-links:hover {
+    color: orange;
+}
+
+/*Footer Style*/
+
+footer {
+    background: linear-gradient(163.2deg, #CE03C6 48.67%, #9300C7 131.42%);
+    border-top: 1px solid #FA00FF;
+    position: relative;
+    width: 375px;
+    height: 46px;
+    left: 0px;
+}
+
+#copyright {
+    text-align: center;
+}
