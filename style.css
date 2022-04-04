@@ -17,7 +17,7 @@ img {
 /* Navigation Style */
 header nav {
     position: relative;
-    width: 400px;
+    width: 393px;
     height: 46px;
     left: 0px;
     top: 0px;
@@ -66,10 +66,20 @@ background: linear-gradient(163.2deg, #CE03C6 48.67%, #9300C7 131.42%);
     position: relative;
     width: 247px;
     height: 33px;
-    left: 105px;
-    top: 33px;
+    left: 75px;
+    top: 73px;
 
-    font-size: 17px;
+    font-size: 25px;
+}
+
+.social-logos {
+    width: 7%;
+    height: 7%;
+    margin: 16px;
+    position: relative;
+    left: 12px;
+    top: 0px;
+    display: flex;
 }
 
 .socials {
@@ -78,7 +88,9 @@ background: linear-gradient(163.2deg, #CE03C6 48.67%, #9300C7 131.42%);
     width: 237px;
     height: 38px;
     left: 72px;
-    top: 30px;
+    top: 125px;
+
+    font-size: 1.3rem;
 }
 
 .social-links {
