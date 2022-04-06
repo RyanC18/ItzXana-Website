@@ -53,16 +53,11 @@ background: linear-gradient(163.2deg, #CE03C6 48.67%, #9300C7 131.42%);
 /*Hero Style*/
 
 #hero-heading {
-    position: relative;
-    width: 311px;
-    height: 76px;
-    left: 99px;
-    top: 77px;
-
-    font-size: 48px;
+    text-align: center;
 }
 
 #hero-subtext {
+    text-align: center;
     position: relative;
     width: 247px;
     height: 33px;
@@ -114,4 +109,87 @@ footer {
 
 #copyright {
     text-align: center;
+}
+
+/*Responsiveness*/
+
+@media screen and (min-width: 500px) {
+    header nav {
+        width: 470px;
+    }
+
+    #hero-subtext {
+        position: relative;
+        left: 95px;
+        top: 73px;
+    }
+    
+    .social-logos {
+        left: 22px;
+        top: -30px;
+        margin: 20px;
+    }
+    
+    .socials {
+        margin: 11px;
+        left: 95px;
+        top: 125px;
+    }
+
+
+
+    footer {
+        width: 470px;
+    }
+}
+
+@media screen and (max-width: 1920px) {
+
+    img {
+        position: relative;
+        width: 174px;
+        height: 177px;
+        left: 350px;
+        top: 82px;
+    }
+
+
+
+    header nav {
+        width: 1000px;
+        font-size: 20px;
+    }
+
+    #hero-heading {
+        position: relative;
+        width: 311px;
+        height: 76px;
+        left: 300px;
+        top: 77px;
+    
+        font-size: 48px;
+    }
+
+    #hero-subtext {
+        left: 335px;
+        top: 73px;
+    }
+    
+    .social-logos {
+        left: 22px;
+        top: -30px;
+        margin: 20px;
+    }
+    
+    .socials {
+        margin: 11px;
+        left: 335px;
+        top: 125px;
+    }
+
+
+
+    footer {
+        width: 1000px;
+    }
 }
