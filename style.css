@@ -8,26 +8,28 @@ body {
 img {
     position: relative;
     width: 174px;
-    height: 177px;
+    height: auto;
     left: 94px;
-    top: 82px;
+    top: 52px;
 }
 
 
 /* Navigation Style */
 header nav {
     position: relative;
-    width: 393px;
-    height: 46px;
+    min-width: 100%;
+    padding: 5px;
+    /*min-height: 46px;*/
     left: 0px;
     top: 0px;
-background: linear-gradient(163.2deg, #CE03C6 48.67%, #9300C7 131.42%);
+
+    background: linear-gradient(163.2deg, #CE03C6 48.67%, #9300C7 131.42%);
 }
 
 .nav-list {
     display: flex;
     gap: 1rem;
-    margin: 0;
+    margin: 10px;
     padding: 0;
     list-style: none;
 }
@@ -54,26 +56,28 @@ background: linear-gradient(163.2deg, #CE03C6 48.67%, #9300C7 131.42%);
 
 #hero-heading {
     text-align: center;
+    margin-top: 70px;
 }
 
 #hero-subtext {
     text-align: center;
     position: relative;
-    width: 247px;
+    margin: 0 auto;
+    /*width: 247px;
     height: 33px;
     left: 75px;
-    top: 73px;
+    top: 73px;*/
 
     font-size: 25px;
 }
 
 .social-logos {
     width: 7%;
-    height: 7%;
+    height: auto;
     margin: 16px;
     position: relative;
     left: 12px;
-    top: 0px;
+    top: 0;
     display: flex;
 }
 
@@ -102,8 +106,9 @@ footer {
     background: linear-gradient(163.2deg, #CE03C6 48.67%, #9300C7 131.42%);
     border-top: 1px solid #FA00FF;
     position: relative;
-    width: 375px;
-    height: 46px;
+    min-width: 100%;
+    padding: 5px;
+    /*min-height: 46px;*/
     left: 0px;
 }
 
@@ -143,7 +148,7 @@ footer {
     }
 }
 
-@media screen and (max-width: 1920px) {
+/*@media screen and (max-width: 1920px) {
 
     img {
         position: relative;
@@ -156,7 +161,7 @@ footer {
 
 
     header nav {
-        width: 1000px;
+        width: 1920px;
         font-size: 20px;
     }
 
@@ -190,6 +195,6 @@ footer {
 
 
     footer {
-        width: 1000px;
+        width: 1920px;
     }
-}
+}*/
