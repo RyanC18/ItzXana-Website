@@ -5,11 +5,7 @@ body {
     color: white;
 }
 
-img {
-    position: relative;
-    width: 100px;
-    height: auto;
-}
+
 
 /* Navigation Style */
 header nav {
@@ -48,28 +44,9 @@ header nav {
 
 /*Hero*/
 
-.hero {
-    width: 100%;
-}
-
-#logo {
-    top: 30%;
-    left: 30%;
-    margin: 20px;
-}
-
 #hero-heading {
     text-align: center;
 }
-
-.hero-subtext {
-    text-align: center;
-    font-size: 1.4rem;
-    padding: 15px;
-}
-
-
-
 
 
 /*Footer Style*/
