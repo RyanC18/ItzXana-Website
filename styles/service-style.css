@@ -42,6 +42,10 @@ header nav {
     color: purple;
 }
 
+#services-nav {
+    border-bottom: 3px solid purple;
+}
+
 /*Hero*/
 
 #hero-heading {

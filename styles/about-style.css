@@ -46,6 +46,10 @@ header nav {
     color: purple;
 }
 
+#about-nav {
+    border-bottom: 3px solid purple;
+}
+
 /*Hero*/
 
 .hero {
