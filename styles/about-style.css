@@ -103,3 +103,47 @@ footer {
         padding: 40px;
     }
 }
+
+@media screen and (min-width: 1920px) {
+
+    #logo {
+        margin-top: 80px;
+        margin-left: 220px;
+        margin-right: auto;
+        width: 15%;
+        height: auto;
+    }
+    
+    header nav {
+        width: 470px;
+    }
+
+    #hero-heading {
+        font-size: 4vw;
+    }
+
+    #hero-subtext {
+        position: relative;
+        left: 12px;
+        top: 73px;
+    }
+    
+    .social-logos {
+        max-width: 2.5%;
+        left: 600px;
+        top: -40px;
+        margin: 20px;
+    }
+    
+    .socials {
+        margin: 20px;
+        left: 700px;
+        top: 125px;
+        font-size: 5vh;
+    }
+
+
+    footer {
+        width: 470px;
+    }
+}

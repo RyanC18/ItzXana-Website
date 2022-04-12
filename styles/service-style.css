@@ -12,7 +12,9 @@ header nav {
     position: relative;
     min-width: 100%;
     padding: 5px;
-    margin: 0 auto;
+    /*min-height: 46px;*/
+    left: 0px;
+    top: 0px;
 
     background: linear-gradient(163.2deg, #CE03C6 48.67%, #9300C7 131.42%);
 }
@@ -35,7 +37,7 @@ header nav {
 .nav-links {
     color: white;
     text-decoration: none;
-    font-size: 20px;
+    font-size: 4vh;
 }
 
 .nav-links:hover {
@@ -44,6 +46,55 @@ header nav {
 
 #services-nav {
     border-bottom: 3px solid purple;
+}
+
+/*Hero Style*/
+
+#hero-heading {
+    text-align: center;
+    margin-top: 70px;
+    font-size: 13vw;
+}
+
+#hero-subtext {
+    text-align: center;
+    position: relative;
+    margin: 0 auto;
+    /*width: 247px;
+    height: 33px;
+    left: 75px;
+    top: 73px;*/
+
+    font-size: 6vw;
+}
+
+.social-logos {
+    width: 7%;
+    height: auto;
+    margin: 16px;
+    position: relative;
+    left: 12px;
+    top: 0;
+    display: flex;
+}
+
+.socials {
+    list-style: none;
+    position: relative;
+    width: 237px;
+    height: 38px;
+    left: 72px;
+    top: 125px;
+
+    font-size: 5vw;
+}
+
+.social-links {
+    color: white;
+    text-decoration: none;
+}
+.social-links:hover {
+    color: orange;
 }
 
 /*Hero*/
